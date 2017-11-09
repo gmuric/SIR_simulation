@@ -38,7 +38,7 @@ r_sequence = [];
         if i == 1
             z = x;
             ni = zeros(1,num_of_nodes);
-            ni(x==1) = 1;
+            if rand<r;  ni(x==1) = 1; end
             recovered = ni';
             z_all(1,:) = z;
         else

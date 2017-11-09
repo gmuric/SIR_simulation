@@ -6,7 +6,7 @@ A = load ('test_network.txt');
 %simulation parameters
 num_of_steps = 2000; %maximum number of iterations. If all the nodes get recovered before that, the simulation will stop
 prob = 0.8; %the probability that the node will be infected from already infected neighboring node
-r = 0.1; %the recovery rate
+r = 0.3; %the recovery rate
 parent_node = 1; %the ID of the node where infection starts. If parent_node is an array of IDs,
 %the infection will start in all of the nodes listed in parent_node. For
 %example: parent_node = [1 5 7] means the infection will start in nodes 1 5 and 7 
